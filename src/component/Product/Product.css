@@ -1,0 +1,11 @@
+.product-img img{
+    width: 286px;
+    height: 286px;
+}
+.product-name{
+    font-size: Lato;
+    font-style: Regular;
+    font-size: 21px;
+    line-height: 25px;
+    line-height: 100%;
+}
