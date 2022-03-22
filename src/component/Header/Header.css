@@ -1,0 +1,26 @@
+.header-style{
+    display: flex;
+    background-color: #1C2B35;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-style img{
+    padding-left: 146px;
+    
+}
+.header-style a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 36px;
+
+}
+.manu-item{
+    padding-right: 139px;
+}
+.header-style a:hover{
+    color: orange;
+}
