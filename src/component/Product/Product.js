@@ -1,5 +1,8 @@
 import React from 'react';
 import './Product.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 const Product = (props) => {
     const {name,img,price,stock,ratings,seller,ratingsCount} = props.product;
@@ -15,7 +18,7 @@ const Product = (props) => {
                 <p><small>Rating : {ratings}</small></p> 
             </div>
             
-                <button onClick={() => props.eventHendler(props.product)} className='crt-button'><p>Add to Cart</p> <i class="fa-solid fa-cart-plus"></i></button>
+                <button onClick={() => props.eventHendler(props.product)} className='crt-button'><p>Add to Cart</p></button>
             
 
         </div>
